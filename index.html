@@ -5,7 +5,22 @@
 	</head>
 	<body>
 		<hr>
-		<h1>OK BOOMER</h1>
+		<div id="boomer" style="background: red;">
+			<h1>OK BOOMER</h1>
+		</div>
 		<hr>
+		<script>
+			var nr = 0;
+			div = document.getElementById("boomer");
+			div.onclick = function() {
+				if(nr % 2 == 0) {
+					div.style.background = "blue";
+				}
+				else {
+					div.style.background = "red";
+				}
+				nr++;
+			}
+		</script>
 	</body>
 </html>
