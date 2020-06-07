@@ -252,6 +252,32 @@
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+
+    
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBm9zBP-TvsN25a7EAUluztYFRLo9M4CNs",
+        authDomain: "fmdb-8c081.firebaseapp.com",
+        databaseURL: "https://fmdb-8c081.firebaseio.com",
+        projectId: "fmdb-8c081",
+        storageBucket: "fmdb-8c081.appspot.com",
+        messagingSenderId: "607721497001",
+        appId: "1:607721497001:web:e8c0366c409eaf9afa24b8",
+        measurementId: "G-KE7DXM26J1"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+</script>
+
 </body>
 
 </html>
